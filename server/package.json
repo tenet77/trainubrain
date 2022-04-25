@@ -1,0 +1,22 @@
+{
+  "name": "trainubrain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^28.0.0"
+  }
+}
